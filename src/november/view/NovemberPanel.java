@@ -46,9 +46,26 @@ public class NovemberPanel extends JPanel
 		{
 			public void actionPerformed(ActionEvent mouseClick)
 			{
-				
+				changeBackgroundColor();
 			}
 		
 		});
 	}
+	
+	private void changeBackgroundColor()
+	{
+		int red = (int)(Math.random() * 256);
+		int green = (int)(Math.random() * 256);
+		int blue = (int) (Math.random() * 256);
+		
+		this.setBackground(new Color(red, green, blue));
+		textLabel.setText("red is " + red + " Green is: " + green + "Blue is: " + blue);
+	}
 }
+
+
+
+
+
+
+
