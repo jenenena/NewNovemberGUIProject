@@ -22,9 +22,9 @@ public class NovemberFrame extends JFrame
 	private void setupFrame()
 	{
 		this.setContentPane(appPanel);
-		this.setSize(1000, 500);;
+		this.setSize(1000, 500);
 		this.setTitle("November GUI App");
-		this.setResizable(false);;
+		this.setResizable(false);
 		this.setVisible(true);
 	}
 
